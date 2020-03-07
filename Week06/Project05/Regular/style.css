@@ -33,6 +33,6 @@ float: right;
 }
 
 nav{
-	position: sticky;
+	position: fixed;
 	
 }
