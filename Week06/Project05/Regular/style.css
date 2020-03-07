@@ -31,3 +31,8 @@ float: left;
 span.makeRight{
 float: right;
 }
+
+nav{
+	position: sticky;
+	
+}
