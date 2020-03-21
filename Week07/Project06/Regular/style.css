@@ -16,6 +16,7 @@ h2{
   text-transform: uppercase;
 }
 
+
 h3 {
   letter-spacing: 75px;
 }
@@ -38,6 +39,6 @@ nav{
 }
 
 color.rugs{
-	color:rgba(255,0,0,0.3);
+	color:rgba(0,0,0,0.3);
 	
 }
