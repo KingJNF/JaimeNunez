@@ -38,3 +38,18 @@ nav{
 	position: fixed;
 	
 }
+
+color.rugs1 {
+	color: rgba(0,0,255,0.3);
+	
+}
+
+color.rugs2 {
+	color: rgba(0,0,255,0.4);
+	
+}
+
+color.rugs3 {
+	color: rgba(0,0,255,0.5);
+	
+}
