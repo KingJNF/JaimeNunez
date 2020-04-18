@@ -1,0 +1,27 @@
+/* CSS files add styling rules to your content */
+
+@font-face {
+  font-family: "Trigger"; /* This is an arbitrary name -- whatever works for you */
+  src: url("https://cdn.glitch.com/a09b81b5-c1a8-4b76-a257-815913709d26%2Ftrigger.ttf?v=1586619108916");
+       url("https://cdn.glitch.com/a09b81b5-c1a8-4b76-a257-815913709d26%2Ftrigger.ttf?v=1586619108916") format("ttf"),
+}
+
+@font-face{
+  font-family: "Trigger-Bold";
+    src: url("https://cdn.glitch.com/a09b81b5-c1a8-4b76-a257-815913709d26%2Ftrigger-bold.ttf?v=1586619113542");
+       url("https://cdn.glitch.com/a09b81b5-c1a8-4b76-a257-815913709d26%2Ftrigger-bold.ttf?v=1586619113542") format("ttf"),
+  
+}
+
+
+
+body {
+  font-family: 'Trigger', sans-serif;
+  background-image: linear-gradient(#757b7d, #000000);
+  color: white;
+}
+
+
+h2 {
+  font-family: 'Trigger-Bold';
+}
