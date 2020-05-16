@@ -1,0 +1,1200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Archive</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- import the webpage's stylesheet -->
+    <link id="theme" rel="stylesheet" type="text/css" href="/dark-theme.css" />
+
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+
+  <body>
+    <div class="topnav" id="myTopnav">
+      <a href="#home">Home</a>
+      <a href="#about" class="active">About</a>
+      <a button id="theme-toggle" style="float:right"> Toggle Dark Mode </a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+
+    <h1>The Thirty Most Impactful Games I Have Played</h1>
+
+    <!-- Button for each category -->
+    <div id="filtering">
+      <div>
+        <button class="bttn active" onclick="archivegallery('all')">
+          Show All Games
+        </button>
+        <button class="bttn" onclick="myFilter2()">
+          Genres
+        </button>
+        <button class="bttn" onclick="myFilter1()">
+          Systems
+        </button>
+      </div>
+
+      <div id="myDIV1">
+        <button class="bttn" onclick="archivegallery('ActionAdventure')">
+          Action Adventure
+        </button>
+        <button class="bttn" onclick="archivegallery('BeatEmUp')">
+          Beat em Up
+        </button>
+        <button class="bttn" onclick="archivegallery('Fighting')">
+          Fighting
+        </button>
+        <button class="bttn" onclick="archivegallery('BeatEmUp')">
+          Beat em Up
+        </button>
+        <button class="bttn" onclick="archivegallery('Fighting')">
+          Fighting
+        </button>
+        <button class="bttn" onclick="archivegallery('FPS')">
+          FPS
+        </button>
+        <button class="bttn" onclick="archivegallery('MMORPG')">
+          MMORPG
+        </button>
+        <button class="bttn" onclick="archivegallery('Platformer')">
+          Platformer
+        </button>
+        <button class="bttn" onclick="archivegallery('Racing')">
+          Racing
+        </button>
+        <button class="bttn" onclick="archivegallery(' RPG')">
+          RPG
+        </button>
+        <button class="bttn" onclick="archivegallery('ShootEmUp')">
+          Shoot em Up
+        </button>
+        <button class="bttn" onclick="archivegallery('Sports')">
+          Sports
+        </button>
+        <button class="bttn" onclick="archivegallery('Strategy')">
+          Strategy
+        </button>
+      </div>
+
+      <div id="myDIV2">
+        <button class="bttn" onclick="archivegallery('GB ')">
+          Game Boy
+        </button>
+        <button class="bttn" onclick="archivegallery('GBA')">
+          Game Boy Advance
+        </button>
+        <button class="bttn" onclick="archivegallery('N64')">
+          Nintendo 64
+        </button>
+        <button class="bttn" onclick="archivegallery(' NES')">
+          NES
+        </button>
+        <button class="bttn" onclick="archivegallery('PC')">
+          PC
+        </button>
+        <button class="bttn" onclick="archivegallery('Playstation1')">
+          Playstation 1
+        </button>
+        <button class="bttn" onclick="archivegallery('Playstation2')">
+          Playstation 2
+        </button>
+        <button class="bttn" onclick="archivegallery('Sega')">
+          Sega Genesis
+        </button>
+        <button class="bttn" onclick="archivegallery('SNES')">
+          SNES
+        </button>
+        <button class="bttn" onclick="archivegallery('Switch')">
+          Switch
+        </button>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="column Playstation1 RPG">
+        <div class="slideshow-container">
+          <div class="mySlides1">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FBof3Cover.jpg?v=1588315720587"
+            />
+            <div class="text">Breath of Fire 3 Cover</div>
+          </div>
+
+          <div class="mySlides1">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FBof3%20CD.jpg?v=1588315725712"
+            />
+            <div class="text">Breath of Fire 3 CD</div>
+          </div>
+
+          <div class="mySlides1">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FBoF3%20Title%20Screen.jpg?v=1588315730829"
+            />
+            <div class="text">Breath of Fire 3 Title Screen</div>
+          </div>
+
+          <div class="mySlides1">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FBoF3%20Screenshot.jpg?v=1588315735336"
+            />
+            <div class="text">Breath of Fire 3 Screenshot</div>
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+        </div>
+      </div>
+
+      <div class="column GBA ActionAdventure">
+        <div class="slideshow-container">
+          <div class="mySlides2">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FCCOTM%20Cover.jpg?v=1588315744153"
+            />
+            <div class="text">Castlevania Circle of the Moon Cover</div>
+          </div>
+
+          <div class="mySlides2">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FCCOTM%20Cartridge.jpg?v=1588315748737"
+            />
+            <div class="text">Castlevania Circle of the Moon Cartridge</div>
+          </div>
+
+          <div class="mySlides2">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FCCOTM%20Title%20Screen.jpg?v=1588315752653"
+            />
+            <div class="text">Castlevania Circle of the Moon Title Screen</div>
+          </div>
+
+          <div class="mySlides2">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FCCOTM%20Screenshot.jpg?v=1588315763999"
+            />
+            <div class="text">Castlevania Circle of the Moon Screenshot</div>
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+        </div>
+      </div>
+
+      <div class="column Playstation1 ActionAdventure">
+        <div class="slideshow-container">
+          <div class="mySlides3">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FCOSTN%20Cover.jpg?v=1588315778019"
+            />
+            <div class="text">Castlevania Symphony of the Night Cover</div>
+          </div>
+
+          <div class="mySlides3">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FCOSTN%20CD.jpg?v=1588315780641"
+            />
+            <div class="text">Castlevania Symphony of the Night CD</div>
+          </div>
+
+          <div class="mySlides3">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FCOSTN%20TItle%20Screen.jpg?v=1588315793835"
+            />
+            <div class="text">
+              Castlevania Symphony of the Night Title Screen
+            </div>
+          </div>
+
+          <div class="mySlides3">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FCOSTN%20Sreenshot.jpg?v=1588315797652"
+            />
+            <div class="text">Castlevania Symphony of the Night Screenshot</div>
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
+        </div>
+      </div>
+
+      <div class="column SNES RPG">
+        <div class="slideshow-container">
+          <div class="mySlides4">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FChrono%20Trigger%20Case.jpg?v=1588319932912"
+            />
+            <div class="text">Chrono Trigger Cover</div>
+          </div>
+
+          <div class="mySlides4">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FChrono%20Trigger%20Cartridge.jpg?v=1588319937306"
+            />
+            <div class="text">Chrono Trigger Cartridge</div>
+          </div>
+
+          <div class="mySlides4">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FChrono%20Trigger%20Title%20Screen.jpg?v=1588319942893"
+            />
+            <div class="text">Chrono Trigger Title Screen</div>
+          </div>
+
+          <div class="mySlides4">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FChrono%20Trigger%20Screenshot.jpg?v=1588319947025"
+            />
+            <div class="text">Chrono Trigger Screenshot</div>
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1, 3)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1, 3)">&#10095;</a>
+        </div>
+      </div>
+
+      <div class="column NES BeatEmUp">
+        <div class="slideshow-container">
+          <div class="mySlides5">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FDouble%20Dragon%20Cover.jpg?v=1588319965067"
+            />
+            <div class="text">Double Dragon Cover</div>
+          </div>
+
+          <div class="mySlides5">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FDouble%20Dragon%20Cartridge.jpg?v=1588319969510"
+            />
+            <div class="text">Double Dragon Cartridge</div>
+          </div>
+
+          <div class="mySlides5">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FDouble%20Dragon%20Title%20Screen.jpg?v=1588319973639"
+            />
+            <div class="text">Double Dragon Title Screen</div>
+          </div>
+
+          <div class="mySlides5">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FDouble%20Dragon%20screenshot.jpg?v=1588319976988"
+            />
+            <div class="text">Double Dragon Screenshot</div>
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1, 4)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1, 4)">&#10095;</a>
+        </div>
+      </div>
+
+      <div class="column PC MMORPG">
+        <div class="slideshow-container">
+          <div class="mySlides6">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FEverquest%20Cover.jpg?v=1588319986208"
+            />
+            <div class="text">EverQuest Cover</div>
+          </div>
+
+          <div class="mySlides6">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FEverquest%20CD.jpg?v=1588319989931"
+            />
+            <div class="text">EverQuest CD</div>
+          </div>
+
+          <div class="mySlides6">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FEverquest%20Title%20Screen.jpg?v=1588320003295"
+            />
+            <div class="text">EverQuest Title Screen</div>
+          </div>
+
+          <div class="mySlides6">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FEverquest%20Screenshot.jpg?v=1588320006988"
+            />
+            <div class="text">EverQuest Screenshot</div>
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1, 5)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1, 5)">&#10095;</a>
+        </div>
+      </div>
+
+      <div class="column SNES RPG">
+        <div class="slideshow-container">
+          <div class="mySlides7">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FFinal%20Fantasy%203%20Cover.jpg?v=1589535926745"
+            />
+            <div class="text">Final Fantasy III Cover</div>
+          </div>
+
+          <div class="mySlides7">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FFinal%20Fantasy%203%20Cartridge.jpg?v=1589535929872"
+            />
+            <div class="text">Final Fantasy III Cartridge</div>
+          </div>
+
+          <div class="mySlides7">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FFinal%20Fantasy%203%20TItle%20Screen.jpg?v=1589535934764"
+            />
+            <div class="text">Final Fantasy III Title Screen</div>
+          </div>
+
+          <div class="mySlides7">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FFinal%20Fantasy%203%20Gameplay.jpg?v=1589535941318"
+            />
+            <div class="text">Final Fantasy III Screenshot</div>
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1, 6)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1, 6)">&#10095;</a>
+        </div>
+      </div>
+
+      <div class="column Playstation1 RPG">
+        <div class="slideshow-container">
+          <div class="mySlides8">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FFinal%20Fantasy%207%20Cover.jpg?v=1589564116499"
+            />
+            <div class="text">Final Fantasy VII Cover</div>
+          </div>
+
+          <div class="mySlides8">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FFinal%20Fantasy%207%20CD.jpg?v=1589564119650"
+            />
+            <div class="text">Final Fantasy VII CDs</div>
+          </div>
+
+          <div class="mySlides8">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FFInal%20Fantasy%207%20Title%20Screen.jpg?v=1589564122665"
+            />
+            <div class="text">Final Fantasy VII Title Screen</div>
+          </div>
+
+          <div class="mySlides8">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FFinal%20Fantasy%207%20screenshot.jpg?v=1589564125424"
+            />
+            <div class="text">Final Fantasy VII Screenshot</div>
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1, 7)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1, 7)">&#10095;</a>
+        </div>
+      </div>
+
+      <div class="column SNES RPG">
+        <div class="slideshow-container">
+          <div class="mySlides9">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FFinal%20Fantasy%20MQ%20Cover.jpg?v=1589564131167"
+            />
+            <div class="text">Final Fantasy Mystic Quest Cover</div>
+          </div>
+
+          <div class="mySlides9">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FFinal%20Fantasy%20MQ%20Cartridge.jpg?v=1589564134193"
+            />
+            <div class="text">Final Fantasy Mystic Quest Cartridge</div>
+          </div>
+
+          <div class="mySlides9">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FFinal%20Fantasy%20MQ%20Title%20Screen.jpg?v=1589564136536"
+            />
+            <div class="text">Final Fantasy Mystic Quest Title Screen</div>
+          </div>
+
+          <div class="mySlides9">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FFinal%20Fantasy%20MQ%20Screenshot.jpg?v=1589564139388"
+            />
+            <div class="text">Final Fantasy Mystic Quest Screenshot</div>
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1, 8)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1, 8)">&#10095;</a>
+        </div>
+      </div>
+
+      <div class="column SNES BeatEmUp">
+        <div class="slideshow-container">
+          <div class="mySlides10">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FFinal%20Fight%203%20Cover.jpg?v=1589564146092"
+            />
+            <div class="text">Final Fight 3 Cover</div>
+          </div>
+
+          <div class="mySlides10">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FFinal%20Fight%203%20Cartridge.jpg?v=1589564149118"
+            />
+            <div class="text">Final Fight 3 Cartridge</div>
+          </div>
+
+          <div class="mySlides10">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FFinal%20Fight%203%20Title%20Screen.jpg?v=1589564152639"
+            />
+            <div class="text">Final Fight 3 Title Screen</div>
+          </div>
+
+          <div class="mySlides10">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FFinal%20Fight%203%20Screenshot.jpg?v=1589564156050"
+            />
+            <div class="text">Final Fight 3 Screenshot</div>
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1, 9)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1, 9)">&#10095;</a>
+        </div>
+      </div>
+
+      <div class="column N64 FPS">
+        <div class="slideshow-container">
+          <div class="mySlides11">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FGoldeneye%20007%20Cover.jpg?v=1589564172115"
+            />
+            <div class="text">Goldeneye 007 Cover</div>
+          </div>
+
+          <div class="mySlides11">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FGoldeneye%20007%20Cartridge.jpg?v=1589564174915"
+            />
+            <div class="text">Goldeneye 007 Cartridge</div>
+          </div>
+
+          <div class="mySlides11">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FGoldeneye%20007%20Title%20Screen.jpg?v=1589564177883"
+            />
+            <div class="text">Goldeneye 007 Title Screen</div>
+          </div>
+
+          <div class="mySlides11">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FGoldeneye%20007%20Screenshot.jpg?v=1589564180440"
+            />
+            <div class="text">Goldeneye 007 Screenshot</div>
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1, 10)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1, 10)">&#10095;</a>
+        </div>
+      </div>
+
+      <div class="column Playstation2 ActionAdventure">
+        <div class="slideshow-container">
+          <div class="mySlides12">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FGrand%20Theft%20Auto%20III%20Cover.jpg?v=1589564199063"
+            />
+            <div class="text">Grand Theft Auto 3 Cover</div>
+          </div>
+
+          <div class="mySlides12">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FGrand%20Theft%20Auto%20III%20CD.jpg?v=1589564202579"
+            />
+            <div class="text">Grand Theft Auto 3 CD</div>
+          </div>
+
+          <div class="mySlides12">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FGrand%20Theft%20Auto%20III%20Title%20Screen.jpg?v=1589564206022"
+            />
+            <div class="text">Grand Theft Auto 3 Screen</div>
+          </div>
+
+          <div class="mySlides12">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FGrand%20Theft%20Auto%20III%20Screenshot.jpg?v=1589564209030"
+            />
+            <div class="text">Grand Theft Auto 3 Screenshot</div>
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1, 11)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1, 11)">&#10095;</a>
+        </div>
+      </div>
+
+      <div class="column Playstation1 RPG">
+        <div class="slideshow-container">
+          <div class="mySlides13">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FLunar%20Silver%20Star%20Story%20Box.jpg?v=1589564362209"
+            />
+            <div class="text">Lunar Silver Star Story Complete Box</div>
+          </div>
+
+          <div class="mySlides13">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FLunar%20Silver%20Star%20Story%20Cover.jpg?v=1589564364940"
+            />
+            <div class="text">Lunar Silver Star Story Complete Cover</div>
+          </div>
+
+          <div class="mySlides13">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FLunar%20Silver%20Star%20Story%20CD.jpg?v=1589564368936"
+            />
+            <div class="text">Lunar Silver Star Story Complete CDs</div>
+          </div>
+
+          <div class="mySlides13">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FLunar%20Silver%20Star%20Story%20Screenshot.jpg?v=1589564371254"
+            />
+            <div class="text">Lunar Silver Star Story Complete Screenshot</div>
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1, 12)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1, 12)">&#10095;</a>
+        </div>
+      </div>
+
+      <div class="column Playstation1 ActionAdventure">
+        <div class="slideshow-container">
+          <div class="mySlides14">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FMetal%20Gear%20Solid%20Cover.jpg?v=1589564378089"
+            />
+            <div class="text">Metal Gear Solid Cover</div>
+          </div>
+
+          <div class="mySlides14">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FMetal%20Gear%20CD_1.jpg?v=1589564381376"
+            />
+            <div class="text">Metal Gear Solid CD</div>
+          </div>
+
+          <div class="mySlides14">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FMetal%20Gear%20Title%20Screen.jpg?v=1589564384749"
+            />
+            <div class="text">Metal Gear Solid Title Screen</div>
+          </div>
+
+          <div class="mySlides14">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FMetal%20Gear%20Screenshot.jpg?v=1589564387305"
+            />
+            <div class="text">Metal Gear Solid Screenshot</div>
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1, 13)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1, 13)">&#10095;</a>
+        </div>
+      </div>
+
+      <div class="column SNES Sports">
+        <div class="slideshow-container">
+          <div class="mySlides15">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FNBA%20Jam%20TE%20Cover.jpg?v=1589564395017"
+            />
+            <div class="text">NBA Jam Tournament Edition Cover</div>
+          </div>
+
+          <div class="mySlides15">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FNBA%20Jam%20TE%20Cartridge.jpg?v=1589564397474"
+            />
+            <div class="text">NBA Jam Tournament Edition Cartridge</div>
+          </div>
+
+          <div class="mySlides15">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FNBA%20Jam%20TE%20Title%20Screen.jpg?v=1589564400493"
+            />
+            <div class="text">NBA Jam Tournament Edition Title Screen</div>
+          </div>
+
+          <div class="mySlides15">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FNBA%20Jam%20TE%20Screenshot.jpg?v=1589564403163"
+            />
+            <div class="text">NBA Jam Tournament Edition Screenshot</div>
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1, 14)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1, 14)">&#10095;</a>
+        </div>
+      </div>
+
+      <div class="column PC Racing">
+        <div class="slideshow-container">
+          <div class="mySlides16">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FNeed%20for%20Speed%20Cover.jpg?v=1589564411141"
+            />
+            <div class="text">Need for Speed Cover</div>
+          </div>
+
+          <div class="mySlides16">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FNeed%20for%20Speed%20CD.jpg?v=1589564427266"
+            />
+            <div class="text">Need for Speed CD</div>
+          </div>
+
+          <div class="mySlides16">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FNeed%20for%20Speed%20Title%20Screen.jpg?v=1589564433685"
+            />
+            <div class="text">Need for Speed Title Screen</div>
+          </div>
+
+          <div class="mySlides16">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FNeed%20for%20Speed%20Screenshot.jpg?v=1589564436089"
+            />
+            <div class="text">Need for Speed Screenshot</div>
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1, 15)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1, 15)">&#10095;</a>
+        </div>
+      </div>
+
+      <div class="column GB RPG">
+        <div class="slideshow-container">
+          <div class="mySlides17">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FPokemon%20Red%20Cover.jpg?v=1589564447951"
+            />
+            <div class="text">Pokemon Red Cover</div>
+          </div>
+
+          <div class="mySlides17">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FPokemon%20Red%20Cartridge.jpg?v=1589564450980"
+            />
+            <div class="text">Pokemon Red Cartridge</div>
+          </div>
+
+          <div class="mySlides17">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FPokemon%20Red%20Title%20Screen.jpg?v=1589564453506"
+            />
+            <div class="text">Pokemon Red Title Screen</div>
+          </div>
+
+          <div class="mySlides17">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FPokemon%20Red%20Screenshot.jpg?v=1589564456499"
+            />
+            <div class="text">Pokemon Red Screenshot</div>
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1, 16)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1, 16)">&#10095;</a>
+        </div>
+      </div>
+
+      <div class="column Sega Platformer">
+        <div class="slideshow-container">
+          <div class="mySlides18">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FSonic%20Cover.jpg?v=1589564464391"
+            />
+            <div class="text">Sonic The Hedgehog Cover</div>
+          </div>
+
+          <div class="mySlides18">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FSonic%20Cartridge.jpg?v=1589564466239"
+            />
+            <div class="text">Sonic The Hedgehog Cartridge</div>
+          </div>
+
+          <div class="mySlides18">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FSonic%20Title%20Screen.jpg?v=1589564469242"
+            />
+            <div class="text">Sonic The Hedgehog Title Screen</div>
+          </div>
+
+          <div class="mySlides18">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FSonic%20Screenshot.jpg?v=1589564471549"
+            />
+            <div class="text">Sonic The Hedgehog Screenshot</div>
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1, 17)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1, 17)">&#10095;</a>
+        </div>
+      </div>
+
+      <div class="column N64 ShootEmUp">
+        <div class="slideshow-container">
+          <div class="mySlides19">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FStar%20Fox%20Cover.jpg?v=1589564478840"
+            />
+            <div class="text">Star Fox 64 Cover</div>
+          </div>
+
+          <div class="mySlides19">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FStar%20Fox%20Cartridge.jpg?v=1589564480415"
+            />
+            <div class="text">Star Fox 64 Cartridge</div>
+          </div>
+
+          <div class="mySlides19">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FStar%20Fox%20Title%20Screen.jpg?v=1589564483159"
+            />
+            <div class="text">Star Fox 64 Title Screen</div>
+          </div>
+
+          <div class="mySlides19">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FStar%20Fox%20Screenshot.jpg?v=1589564485384"
+            />
+            <div class="text">Star Fox 64 Screenshot</div>
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1, 18)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1, 18)">&#10095;</a>
+        </div>
+      </div>
+
+      <div class="column SNES RPG">
+        <div class="slideshow-container">
+          <div class="mySlides20">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FSuper%20Mario%20RPG%20Cover.jpg?v=1589564493055"
+            />
+            <div class="text">
+              Super Mario RPG: Legend of the Seven Stars Cover
+            </div>
+          </div>
+
+          <div class="mySlides20">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FSuper%20Mario%20RPG%20Cartridge.jpg?v=1589564495577"
+            />
+            <div class="text">
+              Super Mario RPG: Legend of the Seven Stars Cartridge
+            </div>
+          </div>
+
+          <div class="mySlides20">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FSuper%20Mario%20RPG%20Title%20Screen.jpg?v=1589564498554"
+            />
+            <div class="text">
+              Super Mario RPG: Legend of the Seven Stars Title Screen
+            </div>
+          </div>
+
+          <div class="mySlides20">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FSuper%20Mario%20RPG%20Screenshot.jpg?v=1589564501164"
+            />
+            <div class="text">
+              Super Mario RPG: Legend of the Seven Stars Screenshot
+            </div>
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1, 19)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1, 19)">&#10095;</a>
+        </div>
+      </div>
+
+      <div class="column SNES Platformer">
+        <div class="slideshow-container">
+          <div class="mySlides21">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FSuper%20Mario%20All%20Stars%20Cover.jpg?v=1589564529643"
+            />
+            <div class="text">Super Mario All-Stars Cover</div>
+          </div>
+
+          <div class="mySlides21">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FSuper%20Mario%20All%20Stars%20Cartridge.jpg?v=1589564532481"
+            />
+            <div class="text">Super Mario All-Stars Cartridge</div>
+          </div>
+
+          <div class="mySlides21">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FSuper%20Mario%20All%20Stars%20Title%20Screen.jpg?v=1589564535184"
+            />
+            <div class="text">Super Mario All-Stars Title Screen</div>
+          </div>
+
+          <div class="mySlides21">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FSuper%20Mario%20All%20Stars%20Screenshot.jpg?v=1589564537396"
+            />
+            <div class="text">Super Mario All-Stars Screenshot</div>
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1, 20)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1, 20)">&#10095;</a>
+        </div>
+      </div>
+
+      <div class="column NES Platformer">
+        <div class="slideshow-container">
+          <div class="mySlides22">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FSuper%20Mario%20Bros%20Cover.jpg?v=1589564545172"
+            />
+            <div class="text">Super Mario Bros. Cover</div>
+          </div>
+
+          <div class="mySlides22">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FSuper%20Mario%20Bros%20Cartridge.jpg?v=1589564549156"
+            />
+            <div class="text">Super Mario Bros. Cartridge</div>
+          </div>
+
+          <div class="mySlides22">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FSuper%20Mario%20Bros%20Title%20Screen.jpg?v=1589564551895"
+            />
+            <div class="text">Super Mario Bros. Title Screen</div>
+          </div>
+
+          <div class="mySlides22">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FSuper%20Mario%20Bros%20Screenshot.jpg?v=1589564554069"
+            />
+            <div class="text">Super Mario Bros. Screenshot</div>
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1, 21)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1, 21)">&#10095;</a>
+        </div>
+      </div>
+
+      <div class="column SNES Platformer">
+        <div class="slideshow-container">
+          <div class="mySlides23">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FSuper%20Mario%20World%20Cover.jpg?v=1589564561194"
+            />
+            <div class="text">Super Mario World Cover</div>
+          </div>
+
+          <div class="mySlides23">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FSuper%20Mario%20World%20Cartridge.jpg?v=1589564563864"
+            />
+            <div class="text">Super Mario World Cartridge</div>
+          </div>
+
+          <div class="mySlides23">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FSuper%20Mario%20World%20Title%20Screen.jpg?v=1589564567357"
+            />
+            <div class="text">Super Mario World Title Screen</div>
+          </div>
+
+          <div class="mySlides23">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FSuper%20Mario%20World%20Screenshot.jpg?v=1589564569606"
+            />
+            <div class="text">Super Mario World Screenshot</div>
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1, 22)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1, 22)">&#10095;</a>
+        </div>
+      </div>
+
+      <div class="column N64 Fighting">
+        <div class="slideshow-container">
+          <div class="mySlides24">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FSuper%20Smash%20Bros%2064%20Cover.jpg?v=1589564577851"
+            />
+            <div class="text">Super Smash Bros 64 Cover</div>
+          </div>
+
+          <div class="mySlides24">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FSuper%20Smash%20Bros%2064%20Cartridge.jpg?v=1589564580529"
+            />
+            <div class="text">Super Smash Bros 64 Cartridge</div>
+          </div>
+
+          <div class="mySlides24">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FSuper%20Smash%20Bros%2064%20Title%20Screen.jpg?v=1589564583185"
+            />
+            <div class="text">Super Smash Bros 64 Title Screen</div>
+          </div>
+
+          <div class="mySlides24">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FSuper%20Smash%20Bros%2064%20Gameplay.jpg?v=1589564585500"
+            />
+            <div class="text">Super Smash Bros 64 Screenshot</div>
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1, 23)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1, 23)">&#10095;</a>
+        </div>
+      </div>
+
+      <div class="column Switch Fighting">
+        <div class="slideshow-container">
+          <div class="mySlides25">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FSuper%20Smash%20Bros%20Ultimate%20Cover.jpg?v=1589564591689"
+            />
+            <div class="text">Super Smash Bros Ultimate Cover</div>
+          </div>
+
+          <div class="mySlides25">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FSuper%20Smash%20Bros%20Ultimate%20Cartridge.jpg?v=1589564594014"
+            />
+            <div class="text">Super Smash Bros Ultimate Cartridge</div>
+          </div>
+
+          <div class="mySlides25">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FSuper%20Smash%20Bros%20Ultimate%20Title%20Screen.jpg?v=1589564619255"
+            />
+            <div class="text">Super Smash Bros Ultimate Title Screen</div>
+          </div>
+
+          <div class="mySlides25">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FSuper%20Smash%20Bros%20Ultimate%20Gameplay.jpg?v=1589564621506"
+            />
+            <div class="text">Super Smash Bros Ultimate Screenshot</div>
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1, 24)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1, 24)">&#10095;</a>
+        </div>
+      </div>
+
+      <div class="column SNES RPG">
+        <div class="slideshow-container">
+          <div class="mySlides26">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FTales%20of%20Phantasia%20Cover.jpg?v=1589564957382"
+            />
+            <div class="text">Tales of Phantasia Cover</div>
+          </div>
+
+          <div class="mySlides26">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FTales%20of%20Phantasia%20Cartridge.jpg?v=1589564961287"
+            />
+            <div class="text">Tales of Phantasia Cartridge</div>
+          </div>
+
+          <div class="mySlides26">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FTales%20of%20Phantasia%20Title%20Screen.jpg?v=1589564964560"
+            />
+            <div class="text">Tales of Phantasia Title Screen</div>
+          </div>
+
+          <div class="mySlides26">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FTales%20of%20Phantasia%20Screenshot.jpg?v=1589564967325"
+            />
+            <div class="text">Tales of Phantasia Screenshot</div>
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1, 25)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1, 25)">&#10095;</a>
+        </div>
+      </div>
+
+      <div class="column SNES Racing">
+        <div class="slideshow-container">
+          <div class="mySlides27">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FTop%20Gear%20Cover.jpg?v=1589564979118"
+            />
+            <div class="text">Top Gear Cover</div>
+          </div>
+
+          <div class="mySlides27">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FTop%20Gear%20Cartridge.jpg?v=1589564982144"
+            />
+            <div class="text">Top Gear Cartridge</div>
+          </div>
+
+          <div class="mySlides27">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FTop%20Gear%20Title%20Screen.jpg?v=1589564985561"
+            />
+            <div class="text">Top Gear Title Screen</div>
+          </div>
+
+          <div class="mySlides27">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FTop%20Gear%20Screenshot.jpg?v=1589564988470"
+            />
+            <div class="text">Top Gear Screenshot</div>
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1, 26)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1, 26)">&#10095;</a>
+        </div>
+      </div>
+
+      <div class="column GBA Strategy">
+        <div class="slideshow-container">
+          <div class="mySlides28">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FYugioh%20EDS%20Cover.jpg?v=1589564995012"
+            />
+            <div class="text">Yu-Gi-Oh!: Eternal Duelist Soul Cover</div>
+          </div>
+
+          <div class="mySlides28">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FYugioh%20EDS%20Cartridge.jpg?v=1589564997754"
+            />
+            <div class="text">Yu-Gi-Oh!: Eternal Duelist Soul Cartridge</div>
+          </div>
+
+          <div class="mySlides28">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FYugioh%20EDS%20Title%20Screen.jpg?v=1589565001164"
+            />
+            <div class="text">Yu-Gi-Oh!: Eternal Duelist Soul Title Screen</div>
+          </div>
+
+          <div class="mySlides28">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FYugioh%20EDS%20Screenshot.jpg?v=1589565003423"
+            />
+            <div class="text">Yu-Gi-Oh!: Eternal Duelist Soul Screenshot</div>
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1, 27)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1, 27)">&#10095;</a>
+        </div>
+      </div>
+
+      <div class="column SNES ActionAdventure">
+        <div class="slideshow-container">
+          <div class="mySlides29">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FLink%20to%20the%20Past%20Cover.jpg?v=1589565045099"
+            />
+            <div class="text">
+              The Legend of Zelda: A Link to the Past Cover
+            </div>
+          </div>
+
+          <div class="mySlides29">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FLink%20to%20the%20Past%20Cartridge.jpg?v=1589565047722"
+            />
+            <div class="text">
+              The Legend of Zelda: A Link to the Past Cartridge
+            </div>
+          </div>
+
+          <div class="mySlides29">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FLink%20to%20the%20Past%20Title%20Screen.jpg?v=1589565051048"
+            />
+            <div class="text">
+              The Legend of Zelda: A Link to the Past Title Screen
+            </div>
+          </div>
+
+          <div class="mySlides29">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FLink%20to%20the%20Past%20Screenshot.jpg?v=1589565053441"
+            />
+            <div class="text">
+              The Legend of Zelda: A Link to the Past Screenshot
+            </div>
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1, 28)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1, 28)">&#10095;</a>
+        </div>
+      </div>
+
+      <div class="column N64 ActionAdventure">
+        <div class="slideshow-container">
+          <div class="mySlides30">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FOcarina%20of%20Time%20Cover.jpg?v=1589565059164"
+            />
+            <div class="text">The Legend of Zelda: Ocarina of Time Cover</div>
+          </div>
+
+          <div class="mySlides30">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FOcarina%20of%20Time%20Cartridge.jpg?v=1589565061599"
+            />
+            <div class="text">
+              The Legend of Zelda: Ocarina of Time Cartridge
+            </div>
+          </div>
+
+          <div class="mySlides30">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FOcarina%20of%20Time%20Title%20Screen.jpg?v=1589565063655"
+            />
+            <div class="text">
+              The Legend of Zelda: Ocarina of Time Title Screen
+            </div>
+          </div>
+
+          <div class="mySlides30">
+            <img
+              src="https://cdn.glitch.com/b320c4f5-3d22-4e67-877f-e18742a41323%2FOcarina%20of%20Time%20Screenshot.jpg?v=1589565066128"
+            />
+            <div class="text">
+              The Legend of Zelda: Ocarina of Time Screenshot
+            </div>
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1, 29)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1, 29)">&#10095;</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
